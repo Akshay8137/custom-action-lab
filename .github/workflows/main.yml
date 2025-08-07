@@ -1,0 +1,15 @@
+name: Run Basic Linux Commands
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  basic-linux-commands:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Custom Action Step
+        uses: Akshay8137/custom-action@v1
