@@ -2,7 +2,7 @@ name: Run Basic Linux Commands
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   basic-linux-commands:
