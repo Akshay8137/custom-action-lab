@@ -12,4 +12,4 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Custom Action Step
-        uses: Akshay8137/custom-action@v1
+        uses: Akshay8137/custom-action-frompc@v1
